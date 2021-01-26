@@ -19,7 +19,8 @@
         <form id="survey-form">
             <div class="form-group">
                 <label id="name-label" for="name">Nombre</label>
-                <input type="text" name="name" id="name" class="form-control" placeholder="Introduce tu Nombre" required />
+                <input type="text" name="name" id="name" class="form-control" placeholder="Introduce tu Nombre"
+                    required />
             </div>
             <div class="form-group">
                 <label id="email-label" for="email">Email</label>
@@ -31,19 +32,19 @@
                 <input type="number" name="age" id="number" min="12" max="60" class="form-control" placeholder="Edad" />
             </div>
             <div class="form-group">
-                <p>Which option best describes your current role?</p>
+                <p>¿Qué opción describe mejor su función actual?</p>
                 <select id="dropdown" name="role" class="form-control" required>
-                    <option disabled selected value>Select current role</option>
-                    <option value="student">Student</option>
+                    <option disabled selected value>Seleccione su rol actual</option>
+                    <option value="student">Estudiante</option>
                     <option value="job">Full Time Job</option>
                     <option value="learner">Full Time Learner</option>
-                    <option value="preferNo">Prefer not to say</option>
-                    <option value="other">Other</option>
+                    <option value="preferNo">Prefiero no decirlo</option>
+                    <option value="other">Otro</option>
                 </select>
             </div>
 
             <div class="form-group">
-                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <p>Recomendarias freeCodeCamp a un amig@?</p>
                 <label>
                     <input name="user-recommend" value="definitely" type="radio" class="input-radio"
                         checked />Definitely</label>
@@ -55,10 +56,10 @@
 
             <div class="form-group">
                 <p>
-                    What is your favorite feature of freeCodeCamp?
+                    ¿Cuál es tu característica favorita de freeCodeCamp?
                 </p>
                 <select id="most-like" name="mostLike" class="form-control" required>
-                    <option disabled selected value>Select an option</option>
+                    <option disabled selected value>Selecione una opción</option>
                     <option value="challenges">Challenges</option>
                     <option value="projects">Projects</option>
                     <option value="community">Community</option>
@@ -68,8 +69,8 @@
 
             <div class="form-group">
                 <p>
-                    What would you like to see improved?
-                    <span class="clue">(Check all that apply)</span>
+                    ¿Que le gustaria mejorar de freeCodeCamp?
+                    <span class="clue">(Marque todas las que corresponda)</span>
                 </p>
 
                 <label><input name="prefer" value="front-end-projects" type="checkbox"
@@ -95,14 +96,14 @@
             </div>
 
             <div class="form-group">
-                <p>Any comments or suggestions?</p>
+                <p>¿Algun comentario o sugerencia adicional?</p>
                 <textarea id="comments" class="input-textarea" name="comment"
-                    placeholder="Enter your comment here..."></textarea>
+                    placeholder="Ingrese su comentario aqui..."></textarea>
             </div>
 
             <div class="form-group">
                 <button type="submit" id="submit" class="submit-button">
-                    Submit
+                    Enviar
                 </button>
             </div>
         </form>
